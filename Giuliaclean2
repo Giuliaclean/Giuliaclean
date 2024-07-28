@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giulia Personal Clean</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #fff;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .promotion {
+            background-color: #ffcc00;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Giulia Personal Clean</h1>
+    </header>
+    <nav>
+        <a href="#about">Sobre Mim</a>
+        <a href="#services">Serviços</a>
+        <a href="#promotion">Promoção de Lançamento</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>Sobre Mim</h2>
+            <p>Bem-vindo à Giulia Personal Clean! Sou Giulia, uma profissional dedicada a oferecer serviços de limpeza de alta qualidade. Com anos de experiência na área, meu objetivo é proporcionar um ambiente limpo e saudável para você e sua família.</p>
+        </section>
+        <section id="services" class="section">
+            <h2>Serviços</h2>
+            <ul>
+                <li>Limpeza Residencial</li>
+                <li>Limpeza Comercial</li>
+                <li>Limpeza Pós-Obra</li>
+                <li>Limpeza de Vidros</li>
+                <li>Organização de Ambientes</li>
+            </ul>
+        </section>
+        <section id="promotion" class="section promotion">
+            <h2>Promoção de Lançamento</h2>
+            <p>Aproveite nossa promoção de lançamento! 20% de desconto na primeira limpeza. Não perca essa oportunidade de ter sua casa ou escritório impecáveis por um preço especial.</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contato</h2>
+            <p>Entre em contato para agendar um serviço ou tirar suas dúvidas:</p>
+            <p>Email: contato@giuliapersonalclean.com</p>
+            <p>Telefone: (11) 1234-5678</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Giulia Personal Clean. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
